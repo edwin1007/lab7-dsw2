@@ -9,7 +9,7 @@
   "name": "ds2-restaurant-backend",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {"sonarqube-scanner": "^2.7.0"},
   "scripts": {
     "sonar": "sonar-scanner",
     "dev": "nodemon src/index.js",
